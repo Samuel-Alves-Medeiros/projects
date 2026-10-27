@@ -63,8 +63,9 @@ h2 {
 
 .btn{
     margin-top: 1.6rem;
-    height: 2.7rem;
-    width: 8.6rem;
+    height: 4.5%;
+    width: 8%;
+    /* width: 8.6rem; */
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;

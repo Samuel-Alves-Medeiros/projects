@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body >
+    <main>
+        <div class="cards">
+              <div class="container">
+                <h2>Sign-up</h2>
+                <p>Welcome to my site :)</p>
+                <div class="email-div label-div">
+                    <p class="errormessage" id="erro-message"></p>
+                    <label for="user-email">E-mail</label>
+                    <input type="email" name="email" id="user-email" class=" input user-email" placeholder="sample@gmail.com">
+                </div>
+                <div class="name-div label-div">
+                    <label for="user-name">Name</label>
+                    <input type="text" name="user-name" id="user-name" class="input user-name">
+                </div>
+                <div class="password-div label-div">
+                    <label for="user-password">Password</label>
+                    <input type="password" name="user-password" id="user-password" class="input user-password">
+
+                </div>
+                <div class="password-confirm-div label-div">
+                    <label for="password-confirm">Confirm password</label>
+                    <input type="password" name="user-password" id="password-confirm" class="input password-confirm">
+                </div>
+                <div class="login-section">
+                    <p>Already have an account?</p>
+                    <a href="./login.html">login</a>
+                </div>
+                <div class="label-div">
+                    <input type="button" value="sign-up" class="btn" id="btn">
+                </div>
+            </div>
+            <div class="site-img">
+                <img src="./images/random-img.jpg" alt="">
+                
+            </div>
+        </div>
+    </main>
+    <script src="signup.js"></script>
+</body>
+</html>
